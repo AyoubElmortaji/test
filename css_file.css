@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+   
+   font-family: dubai;
+ 
+}
+
+header{
+    background-color:white;;
+    width: 100%;
+ 
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+   
+ 
+    
+}
+header .logo{
+    text-decoration: none;
+    color:orangered;
+   
+   
+    font-size: 1.9em;
+}
+.navbar a{
+    text-decoration: none;
+    color:royalblue;
+    font-size: 1.4em;
+    
+    margin-left: 90px;
+    height: 10px;
+    text-align: center;
+}
+
+.navbar a:hover{
+    color:hotpink;
+
+    
+    transform:scale(1.2);   
+    transition: 0.2s;
+}
+
+form {
+    width: 700px;
+    margin: auto;
+    
+  }
+  
+  input {
+    padding: 4px 10px;
+    border: 0;
+    font-size: 16px;
+  }
+  
+  .search {
+    width: 75%;
+  }
+  
+  .submit {
+    width: 70px;
+    background-color: #1c87c9;
+    color: #ffffff;
+  }
+
+  .srch{
+    background-color: black;
+    height: 7em;
+    padding: 50px;
+  }
+.introsite{
+  justify-content: center;
+  align-content: center;
+  margin-top: 1em;
+  
+}
+.introsite img{
+    height: 35em;
+   
+    width:100%;
+}
+.introsite h3{
+  color:orangered;
+  font-style: oblique;
+  font-size: 5em;
+  padding: 1em;
+}

@@ -1,0 +1,109 @@
+@media (max-width:1023px){
+    body{
+        align-items: center;
+        width:100%;
+        
+    }
+
+    *{
+      padding: 0%;
+      margin: 0%;
+      justify-content: center;
+      list-style: none;
+      text-decoration: none;
+      box-sizing: border-box;
+     
+     font-family: dubai;
+   
+  }
+ 
+  header{
+      background-color:white;;
+      width: 100%;
+   
+      z-index: 999;
+      display: inline-block;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+     
+   
+      
+  }
+  header .logo{
+      text-decoration: none;
+      color:orangered;
+     
+     
+      font-size: 1.9em;
+  }
+  .navbar{
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+  }
+  .navbar a{
+      text-decoration: none;
+      color:royalblue;
+      font-size: 1.2em;
+      
+      margin-left: 11px;
+      height: 10px;
+      text-align: center;
+  }
+  
+  .navbar a:hover{
+      color:hotpink;
+  
+      
+      transform:scale(1.2);   
+      transition: 0.2s;
+  }
+  
+  form {
+      width: 350px;
+      margin: auto;
+      
+    }
+    
+    input {
+      padding: 4px 10px;
+      border: 0;
+      font-size: 16px;
+    }
+    
+    .search {
+      width: 75%;
+    }
+    
+    .submit {
+      width: 70px;
+      background-color: #1c87c9;
+      color: #ffffff;
+    }
+  
+    .srch{
+      background-color: black;
+      height: 7em;
+      padding: 30px;
+    }
+  .introsite{
+    justify-content: center;
+    align-content: center;
+    margin-top: 3em;
+    display: block;
+
+  }
+  .introsite img{
+      height: 20em;
+    
+      width: 100%;
+  }
+  .introsite h3{
+    color:orangered;
+    font-style:normal;
+    font-size: 2em;
+    padding: 1em;
+  }
+ 
+}
